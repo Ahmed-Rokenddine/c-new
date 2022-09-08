@@ -127,7 +127,7 @@ int main() {
    int x=1;
    while (x<10)
    {
-         printf("%d ",x);
+         printf("%d \n",x);
          x++;
       };
 
@@ -140,7 +140,7 @@ int main() {
    int h=2020;
    do
    {
-      printf("%d ",h);
+      printf("%d \n",h);
       h++;
    } while (h<=2025);
    
