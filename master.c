@@ -61,7 +61,7 @@ int main() {
     printf("le rest de la division est : %d \n",rest);
     
     //==============> Les conditions <================
-    if (salaire_annuel > 120000 )  //condition simple (IF)
+    if (salaire_annuel > 120000 )  //condition simple (IF : quand on as plusierus varibles , ou on travail sur des intervales)
        printf("i will maybe buy a car \n");
     
 
@@ -82,7 +82,7 @@ int main() {
     printf("Veileur entrer votre Usertag:");
     scanf("%d",&User);
     
-    switch (User) 
+    switch (User)  //condition a choix multiple (swtich =  quand on as un seul variables dont on connais les sommes)
     {
     case 1 : printf("you can do it Rabie");
     
@@ -99,6 +99,7 @@ int main() {
     default: printf("user inconnu");
         break;
     }
+    //==============> Les boucles <================
     
     
     
