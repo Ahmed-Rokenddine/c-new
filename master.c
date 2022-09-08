@@ -84,15 +84,15 @@ int main() {
     
     switch (User)  //condition a choix multiple (swtich =  quand on as un seul variables dont on connais les sommes)
     {
-    case 1 : printf("you can do it Rabie");
+    case 1 : printf("you can do it Rabie \n");
     
         break;
     
-    case 2 : printf("Work hard salma , its not over yet");
+    case 2 : printf("Work hard salma , its not over yet \n");
       
         break;
     
-    case 3 : printf("Take it seriously , you only have one shot");
+    case 3 : printf("Take it seriously , you only have one shot \n");
 
        break;
     
@@ -100,14 +100,60 @@ int main() {
         break;
     }
     //==============> Les boucles <================
+    /*  la boucle FOR : cette boucle permet d'executer une sequence d'instruction un nombre de fois connu fixe au depart
+
+     initalions : execute avant le debut de chaque tour 
+     condition : tant quelle est vrai la boucle continue 
+     incrementation : execute a la fin de chaque tour , pour mettre a jour le variable
+     for (initialisation; conditon ; incrementation) {
+      instruction a repeter;
+      }
+   */
     
+    int S,i, j; 
+    S=120000;
+    int anne;
+    for ( i = 1; i < 11; i++)
+    {
+      S += i;
+      anne = 2023 + i;
+      printf("la somme du salaire pour %d est : %d \n",anne, S);
+    };
+   /* la boucle While : permet de repeter un bloc dinstruction tant que la condition est vrai 
+    While (condition) {
+    instruction a repeter;
+   }
+   */  
+   int x=1;
+   while (x<10)
+   {
+         printf("%d ",x);
+         x++;
+      };
+
+   /* la boucle Do While : permet de repeter un bloc d'instruction tant qu'une condition est vrai
+    meme si les condition sont fausse linstruction vas s'executer au moins une fois 
+    Do{
+      instruction a repeter ;
+    }while (condition);
+   */
+   int h=2020;
+   do
+   {
+      printf("%d ",h);
+      h++;
+   } while (h<=2025);
+   
+      
+   
     
-    
+
+/* for(int i = 0; i <= 10; i++){
+   printf(user[i]);
+}
   
 
-       
-
-
-
+[rabie , ouallaf . ahemd ]
+*/  
     return 0;
 };

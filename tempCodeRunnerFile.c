@@ -1,0 +1,1 @@
+printf("la somme du salaire pour %d est : %d \n",anne, S);
