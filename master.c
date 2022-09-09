@@ -148,12 +148,64 @@ int main() {
    
     
 
-/* for(int i = 0; i <= 10; i++){
-   printf(user[i]);
-}
-  
+// exemple : 
+int main(){
+    int jour,mois,anne;
+    printf("Veileur entrer la date");
+    scanf("%d / %d / %d",&jour,&mois,&anne);
+    switch (mois)  
+    {
+    case 1 : printf("janvier \n");
+    
+        break;
+    
+    case 2 : printf("fevrier \n");
+      
+        break;
+    
+    case 3 : printf("mars \n");
 
-[rabie , ouallaf . ahemd ]
-*/  
+       break;
+    
+    case 4 : printf("avril \n");
+
+       break;
+    
+    case 5 : printf("Mai")
+     
+       break;
+
+    case 6 : printf("juin")
+
+       break;
+
+    case 7 : printf("juillet \n");
+    
+        break;
+    
+    case 8 : printf("aout \n");
+      
+        break;
+    
+    case 9 : printf("septembre \n");
+
+       break;
+    
+    case 10 : printf("octobre \n");
+
+       break;
+    
+    case 11 : printf("novembre \n")
+     
+       break;
+
+    
+    default: printf("decembre \n");
+        break;
+    }
+}
+
+
+
     return 0;
 };
